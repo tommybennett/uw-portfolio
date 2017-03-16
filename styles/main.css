@@ -1,0 +1,39 @@
+/* The root font size */
+html { font-size: 16px; }
+
+/* Some header sizes relative to the root */
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+mark {
+  background-color: salmon;
+}
+
+nav:hover a {
+  /* Jeremy's favorite color ;) */
+  background-color: cornflowerblue;
+}
+
+.ad-title {
+  text-align: center;
+  color: salmon;
+}
+
+.ad-title::first-letter {
+  font-size: 5rem;
+}
+
+.logo {
+  border: 5px solid cornflowerblue;
+}
+
+#name-header p {
+  font-size: 5rem;
+  color: burlywood;
+  background-color: grey;
+}
