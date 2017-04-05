@@ -1,0 +1,19 @@
+.toucan {
+  margin: 0 auto;
+  text-align: center;
+
+  height: 15vmin;
+  line-height: 15vmin;
+  width: 15vmin;
+
+  position: absolute;
+  top: 1%;
+  left: 10%;
+
+  transition: all 1s cubic-bezier(.12,.92,.88,-0.53) 0s;
+}
+
+.toucan:hover {
+  height: 20vmin; width: 20vmin;
+  left: 40%;
+}

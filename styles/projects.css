@@ -17,3 +17,7 @@ footer {
 img {
   border: 1px solid black;
 }
+
+#projects :nth-child(odd) {
+  color: salmon;
+}
